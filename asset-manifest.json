@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/css/main.04faee95.css",
-    "main.js": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/js/main.303f0183.js",
+    "main.js": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/js/main.c0a5f06c.js",
     "static/js/453.0149b0d5.chunk.js": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/js/453.0149b0d5.chunk.js",
     "index.html": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/index.html",
     "main.04faee95.css.map": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/css/main.04faee95.css.map",
-    "main.303f0183.js.map": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/js/main.303f0183.js.map",
+    "main.c0a5f06c.js.map": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/js/main.c0a5f06c.js.map",
     "453.0149b0d5.chunk.js.map": "/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian/static/js/453.0149b0d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04faee95.css",
-    "static/js/main.303f0183.js"
+    "static/js/main.c0a5f06c.js"
   ]
 }
