@@ -2,7 +2,7 @@
   "name": "binguardian",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mouryas-aiml.github.io/GSC--Smart-Waste-Managament-BinGuardian",
+  "homepage": "https://mouryas-aiml.github.io/mouryas-aiml-GSC--Smart-Waste-Managament-BinGuardian",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
