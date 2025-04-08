@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GSC--Smart-Waste-Managament-BinGuardian/static/css/main.04faee95.css",
-    "main.js": "/GSC--Smart-Waste-Managament-BinGuardian/static/js/main.0cdcdadf.js",
-    "static/js/453.0149b0d5.chunk.js": "/GSC--Smart-Waste-Managament-BinGuardian/static/js/453.0149b0d5.chunk.js",
-    "index.html": "/GSC--Smart-Waste-Managament-BinGuardian/index.html",
-    "main.04faee95.css.map": "/GSC--Smart-Waste-Managament-BinGuardian/static/css/main.04faee95.css.map",
-    "main.0cdcdadf.js.map": "/GSC--Smart-Waste-Managament-BinGuardian/static/js/main.0cdcdadf.js.map",
-    "453.0149b0d5.chunk.js.map": "/GSC--Smart-Waste-Managament-BinGuardian/static/js/453.0149b0d5.chunk.js.map"
+    "main.css": "/GSC--Smart-Waste-Management-BinGuardian/static/css/main.04faee95.css",
+    "main.js": "/GSC--Smart-Waste-Management-BinGuardian/static/js/main.9c1e0801.js",
+    "static/js/453.0149b0d5.chunk.js": "/GSC--Smart-Waste-Management-BinGuardian/static/js/453.0149b0d5.chunk.js",
+    "index.html": "/GSC--Smart-Waste-Management-BinGuardian/index.html",
+    "main.04faee95.css.map": "/GSC--Smart-Waste-Management-BinGuardian/static/css/main.04faee95.css.map",
+    "main.9c1e0801.js.map": "/GSC--Smart-Waste-Management-BinGuardian/static/js/main.9c1e0801.js.map",
+    "453.0149b0d5.chunk.js.map": "/GSC--Smart-Waste-Management-BinGuardian/static/js/453.0149b0d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04faee95.css",
-    "static/js/main.0cdcdadf.js"
+    "static/js/main.9c1e0801.js"
   ]
 }
