@@ -1,0 +1,448 @@
+.report-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.report-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.report-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.report-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.report-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.map-container {
+    height: 650px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.map-placeholder {
+    background-color: #e0e0e0;
+    height: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    text-align: center;
+    padding: 1rem;
+}
+
+.form-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.file-input-container {
+    margin-top: 0.5rem;
+}
+
+.image-preview {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 4px;
+}
+
+.ai-note {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 992px) {
+    .report-content {
+        grid-template-columns: 1fr;
+    }
+
+    .map-placeholder {
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .report-content {
+        flex-direction: row;
+    }
+
+    .map-container {
+        flex: 1;
+    }
+
+    .form-container {
+        flex: 1;
+    }
+}
+
+.login-prompt {
+    background-color: #e8f5e9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-left: 4px solid #4CAF50;
+}
+
+.login-prompt a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
+
+.report-error {
+    background-color: #ffebee;
+    color: #d32f2f;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-left: 4px solid #d32f2f;
+}
+
+.report-success {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-left: 4px solid #2e7d32;
+}
+
+.report-success p {
+    margin: 0.5rem 0;
+}
+
+.upload-progress {
+    margin: 1rem 0;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+}
+
+.upload-progress p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.points-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.points-info p {
+    margin: 0.25rem 0;
+    color: #555;
+}
+
+.points-info p:first-child {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Disable styles */
+input:disabled,
+textarea:disabled,
+select:disabled,
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.submit-button:disabled:hover {
+    background-color: #4CAF50;
+}
+
+.map-instructions {
+    background-color: #f8f9fa;
+    padding: 0.75rem;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.selected-location {
+    background-color: #e8f5e9;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #388e3c;
+}
+
+/* Fix for Leaflet controls */
+.leaflet-top,
+.leaflet-bottom {
+    z-index: 900 !important;
+}
+
+.leaflet-control-zoom {
+    margin-top: 60px !important;
+}
+
+.leaflet-map {
+    height: 600px !important;
+    width: 100% !important;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Make sure map tiles render correctly */
+.leaflet-tile {
+    visibility: inherit !important;
+}
+
+.report-waste-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2e7d32;
+}
+
+.report-form {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.map-container {
+    margin-bottom: 25px;
+}
+
+.leaflet-map {
+    height: 400px !important;
+    width: 100% !important;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    z-index: 1;
+    /* Ensure map is displayed with correct z-index */
+    position: relative;
+    overflow: hidden;
+    /* Prevent image cutting */
+}
+
+.selected-location {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #2e7d32;
+}
+
+.image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.image-preview img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    object-fit: contain;
+    /* Prevent image from being cropped */
+}
+
+.submit-button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #1b5e20;
+}
+
+.submit-button:disabled {
+    background-color: #b5b5b5;
+    cursor: not-allowed;
+}
+
+.success-message {
+    background-color: #e8f5e9;
+    border-left: 4px solid #2e7d32;
+    color: #2e7d32;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.error-message {
+    background-color: #ffebee;
+    border-left: 4px solid #c62828;
+    color: #c62828;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Make sure the Leaflet controls appear above other elements */
+.leaflet-control {
+    z-index: 1000 !important;
+}
+
+/* Fix for marker icons */
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .report-form {
+        padding: 15px;
+    }
+
+    .map-container {
+        height: 500px;
+    }
+
+    .leaflet-map {
+        height: 450px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-container {
+        height: 400px;
+    }
+
+    .leaflet-map {
+        height: 350px !important;
+    }
+
+    .submit-button {
+        padding: 12px 16px;
+    }
+}

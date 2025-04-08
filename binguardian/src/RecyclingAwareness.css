@@ -1,0 +1,804 @@
+.recycling-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.recycling-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.recycling-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.recycling-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.category-card {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.category-card h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.category-card ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.category-card li {
+    margin-bottom: 0.5rem;
+}
+
+.tip {
+    font-style: italic;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 0.75rem;
+}
+
+.paper {
+    background-color: #3498db;
+}
+
+.plastic {
+    background-color: #e74c3c;
+}
+
+.glass {
+    background-color: #2ecc71;
+}
+
+.metal {
+    background-color: #95a5a6;
+}
+
+.electronic {
+    background-color: #9b59b6;
+}
+
+.organic {
+    background-color: #f39c12;
+}
+
+.recycling-tips {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recycling-tips h2 {
+    color: #4CAF50;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.recycling-tips ul {
+    padding-left: 1.5rem;
+}
+
+.recycling-tips li {
+    margin-bottom: 0.75rem;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.recycling-awareness-container {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.recycling-banner {
+    height: 400px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+        url('https://images.unsplash.com/photo-1611284446313-468a41d27ef8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recycling-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.tab-button {
+    padding: 12px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tab-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.recycling-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 50px;
+}
+
+/* General guide styles */
+.general-guide h2,
+.materials-guide h2,
+.recycling-tips h2,
+.waste-reduction h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-intro,
+.guide-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recycling-process,
+.recycling-benefits,
+.recycling-symbols,
+.waste-hierarchy,
+.reduction-steps,
+.zero-waste {
+    margin-bottom: 50px;
+}
+
+.recycling-process h3,
+.recycling-benefits h3,
+.recycling-symbols h3,
+.waste-hierarchy h3,
+.reduction-steps h3,
+.zero-waste h3 {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    color: #4CAF50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Process steps styles */
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.process-step {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.step-content {
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.process-step h4 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.process-step p {
+    color: #666;
+    line-height: 1.5;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* Styling for the expanded details */
+.process-step.expanded {
+    grid-column: 1 / -1;
+    /* Make expanded step take full width */
+    transition: all 0.3s ease;
+}
+
+.step-details {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.step-details h5 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.detail-section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.detail-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.detail-section h6 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.detail-section p {
+    margin-left: 10px;
+}
+
+/* Benefits styles */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.benefit-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.benefit-card h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.benefit-card p {
+    color: #666;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Materials guide styles */
+.materials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.material-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.material-card:hover {
+    transform: translateY(-5px);
+}
+
+.material-card.active {
+    color: white;
+}
+
+.material-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.material-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.material-details {
+    margin-top: 20px;
+    text-align: left;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.material-section {
+    margin-bottom: 20px;
+}
+
+.material-section h4 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.material-section ul {
+    padding-left: 20px;
+}
+
+.material-section li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.material-dos-donts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.material-dos h4,
+.material-donts h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.material-impact {
+    margin-top: 20px;
+}
+
+.material-impact h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.material-section p,
+.material-impact p {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Tips styles */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.tip-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+}
+
+.tip-card h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.tip-card p {
+    color: #666;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Recycling symbols styles */
+.symbols-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.symbol-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.recycling-symbol {
+    min-width: 60px;
+}
+
+.triangle-symbol {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangle-symbol:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 10 L90 90 L10 90 Z" fill="none" stroke="%234CAF50" stroke-width="5"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.triangle-symbol span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #4CAF50;
+    z-index: 1;
+}
+
+.symbol-info h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.symbol-info p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.recyclability {
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+/* Waste hierarchy styles */
+.hierarchy-pyramid {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hierarchy-level {
+    padding: 15px 20px;
+    color: white;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.hierarchy-level:nth-child(1) {
+    border-radius: 8px 8px 0 0;
+}
+
+.hierarchy-level:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.hierarchy-level h4 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.hierarchy-level p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Reduction steps styles */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.step-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+}
+
+.step-card h4 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    color: #666;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Zero waste styles */
+.zero-waste p {
+    margin-bottom: 25px;
+    color: #666;
+    max-width: 800px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.zero-waste-tips {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.zero-waste-tip {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.zero-waste-tip h4 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.zero-waste-tip p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Speech button styling in context */
+.speak-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: opacity 0.3s, transform 0.3s;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.speak-button:hover {
+    opacity: 1;
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+.speak-button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.speak-button.speaking {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: rgba(76, 175, 80, 0.2);
+    }
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+
+    .recycling-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab-button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .material-dos-donts {
+        grid-template-columns: 1fr;
+    }
+
+    .hierarchy-level h4 {
+        font-size: 0.9rem;
+    }
+
+    .hierarchy-level p {
+        font-size: 0.8rem;
+    }
+
+    .symbol-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .recycling-banner {
+        height: 300px;
+    }
+
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .general-guide h2,
+    .materials-guide h2,
+    .recycling-tips h2,
+    .waste-reduction h2 {
+        font-size: 1.5rem;
+    }
+
+    .process-step,
+    .benefit-card,
+    .material-card,
+    .tip-card,
+    .symbol-card,
+    .step-card,
+    .zero-waste-tip {
+        padding: 15px;
+    }
+}

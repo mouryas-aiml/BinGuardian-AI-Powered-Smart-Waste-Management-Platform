@@ -1,0 +1,32 @@
+.wave-divider {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    left: 0;
+}
+
+.wave-divider.top {
+    top: -1px;
+    transform: rotate(180deg);
+}
+
+.wave-divider.bottom {
+    bottom: -1px;
+}
+
+.wave-divider svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.wave-divider.inverted svg {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .wave-divider svg {
+        height: 40px;
+    }
+}

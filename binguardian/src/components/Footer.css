@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.developers {
+    font-size: 0.8rem;
+    color: #ccc;
+    margin-bottom: 0;
+}
+
+.developers a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.developers a:hover {
+    color: #8BC34A;
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+.forgot-password {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.forgot-password-link {
+    background: none;
+    border: none;
+    color: #4CAF50;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.forgot-password-link:hover {
+    color: #3d9140;
+}
+
+.forgot-password-link:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.success-message {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-left: 4px solid #4CAF50;
+    color: #2e7d32;
+    border-radius: 4px;
+}

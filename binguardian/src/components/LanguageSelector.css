@@ -1,0 +1,58 @@
+.language-control-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+}
+
+.language-selector {
+    display: inline-block;
+}
+
+.language-selector select {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.language-selector select:hover {
+    border-color: #4CAF50;
+}
+
+.language-selector select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.language-selector select:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.navbar-translate-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.navbar-translate-button:hover {
+    background-color: #45a049;
+}
+
+.navbar-translate-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
