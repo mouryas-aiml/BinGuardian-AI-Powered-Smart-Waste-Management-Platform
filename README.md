@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # BinGuardian – Revolutionizing Smart Waste Management 🌍
 
 <div align="center">
@@ -193,7 +193,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img src="https://img.shields.io/badge/Visit-Our%20Website-brightgreen?style=for-the-badge" alt="Website">
   </a>
 </div>
-=======
+
 # BinGuardian - Smart Waste Management Dashboard
 
 ## Project Overview
@@ -296,4 +296,3 @@ BinGuardian is an innovative waste management platform designed to empower commu
 ## License
 
 This project is proprietary software. All rights reserved.
->>>>>>> master
