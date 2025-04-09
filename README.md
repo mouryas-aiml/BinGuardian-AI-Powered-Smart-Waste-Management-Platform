@@ -122,17 +122,17 @@ At BinGuardian, we envision a world where waste management is not just efficient
   <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200" alt="Future Innovation" width="100%">
 </div>
 
-### Phase 1: Q1 2024
+### Phase 1: Q1 2025
 - 📱 Mobile App Launch
 - 🎯 Gamification Features
 - 🤖 Enhanced AI Capabilities
 
-### Phase 2: Q2 2024
+### Phase 2: Q2 2025
 - 🔗 IoT Integration
 - 📊 Advanced Analytics Dashboard
 - 🚛 Smart Route Optimization
 
-### Phase 3: Q3 2024
+### Phase 3: Q3 2025
 - 🌐 Blockchain Integration
 - 🤝 Community Rewards Program
 - 🔄 Automated Waste Sorting
