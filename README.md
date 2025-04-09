@@ -4,7 +4,7 @@
 <div align="center">
   <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=1200" alt="Smart Waste Management" width="100%">
 
-  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/mouryas-aiml/GSC--Smart-Waste-Managament-BinGuardian)
+  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://bsky.app/profile/mouryas.bsky.social)
   [![AI Powered](https://img.shields.io/badge/AI-Powered-blue.svg)](https://github.com/mouryas-aiml/GSC--Smart-Waste-Managament-BinGuardian)
   [![Smart City](https://img.shields.io/badge/Smart-City-green.svg)](https://github.com/mouryas-aiml/GSC--Smart-Waste-Managament-BinGuardian)
   [![Sustainable](https://img.shields.io/badge/Eco-Friendly-brightgreen.svg)](https://github.com/mouryas-aiml/GSC--Smart-Waste-Managament-BinGuardian)
@@ -162,7 +162,7 @@ At BinGuardian, we envision a world where waste management is not just efficient
 |---------|---------|
 | 📧 Email | mouryas@outlook.in |
 | 📞 Phone | +91 8762656329 |
-| 💬 Chat | [Live Chat Support](https://binguardian.com/chat) |
+| 💬 Chat | [Live Chat Support](https://bsky.app/profile/mouryas.bsky.social) |
 | 📍 Address | Bengaluru, Karnataka, INDIA - 560065 |
 
 </div>
@@ -189,7 +189,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   
   <p>Made with 💚 by the BinGuardian Team</p>
   
-  <a href="https://binguardian.com">
+  <a href="https://mouryas-aiml.github.io/GSC--Smart-Waste-Managament-BinGuardian/">
     <img src="https://img.shields.io/badge/Visit-Our%20Website-brightgreen?style=for-the-badge" alt="Website">
   </a>
 </div>
